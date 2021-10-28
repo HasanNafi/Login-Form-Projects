@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(background.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form {
+    width: 300px;
+    background: none;
+    padding: 20px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: white;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.sign-up-form h1 {
+    color: blue;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.signup-btn {
+    padding: 5px 10px;
+    margin: 10px;
+    width: 90%;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(88, 88, 252);
+}
+
+.signup-btn:hover {
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(242, 245, 253);
+}
+
+.signin-link a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signin-link a:hover {
+    color: black;
+}
+
+hr {
+    margin-top: 20px;
+    width: 90%;
+}
+
+.or {
+    width: 30px;
+    background: #fff;
+    margin: -19px auto 19px;
+}
+
+img {
+    width: 70px;
+    margin-top: -50px;
+}
